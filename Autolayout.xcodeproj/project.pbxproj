@@ -13,6 +13,7 @@
 		94CEA8A51AD0251F00BD887C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CEA8A41AD0251F00BD887C /* Images.xcassets */; };
 		94CEA8A81AD0251F00BD887C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CEA8A61AD0251F00BD887C /* LaunchScreen.xib */; };
 		94CEA8B41AD0251F00BD887C /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA8B31AD0251F00BD887C /* AutolayoutTests.swift */; };
+		94CEA8BE1AD02A9600BD887C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA8BD1AD02A9600BD887C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		94CEA8AD1AD0251F00BD887C /* AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CEA8B21AD0251F00BD887C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94CEA8B31AD0251F00BD887C /* AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTests.swift; sourceTree = "<group>"; };
+		94CEA8BD1AD02A9600BD887C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,11 @@
 		94CEA89A1AD0251F00BD887C /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				94CEA89D1AD0251F00BD887C /* AppDelegate.swift */,
 				94CEA89F1AD0251F00BD887C /* ViewController.swift */,
 				94CEA8A11AD0251F00BD887C /* Main.storyboard */,
 				94CEA8A41AD0251F00BD887C /* Images.xcassets */,
-				94CEA8A61AD0251F00BD887C /* LaunchScreen.xib */,
 				94CEA89B1AD0251F00BD887C /* Supporting Files */,
+				94CEA8BD1AD02A9600BD887C /* User.swift */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -90,6 +91,8 @@
 		94CEA89B1AD0251F00BD887C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94CEA8A61AD0251F00BD887C /* LaunchScreen.xib */,
+				94CEA89D1AD0251F00BD887C /* AppDelegate.swift */,
 				94CEA89C1AD0251F00BD887C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				94CEA8A01AD0251F00BD887C /* ViewController.swift in Sources */,
 				94CEA89E1AD0251F00BD887C /* AppDelegate.swift in Sources */,
+				94CEA8BE1AD02A9600BD887C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
