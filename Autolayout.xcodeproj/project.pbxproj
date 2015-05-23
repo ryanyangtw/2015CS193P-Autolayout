@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9456AEAD1B105D0D0093BD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9456AEAF1B105D0D0093BD3D /* InfoPlist.strings */; };
+		9456AEB21B105D0D0093BD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9456AEB41B105D0D0093BD3D /* InfoPlist.strings */; };
+		9456AEB71B10674B0093BD3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9456AEB91B10674B0093BD3D /* Localizable.strings */; };
 		94CEA89E1AD0251F00BD887C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA89D1AD0251F00BD887C /* AppDelegate.swift */; };
 		94CEA8A01AD0251F00BD887C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA89F1AD0251F00BD887C /* ViewController.swift */; };
 		94CEA8A31AD0251F00BD887C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CEA8A11AD0251F00BD887C /* Main.storyboard */; };
@@ -27,6 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9456AEA51B105C000093BD3D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		9456AEA61B105C000093BD3D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9456AEA71B105C040093BD3D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		9456AEA81B105C040093BD3D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9456AEA91B105C090093BD3D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		9456AEAA1B105C090093BD3D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9456AEAE1B105D0D0093BD3D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9456AEB31B105D0D0093BD3D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9456AEB81B10674B0093BD3D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		94CEA8981AD0251F00BD887C /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CEA89C1AD0251F00BD887C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94CEA89D1AD0251F00BD887C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +103,8 @@
 		94CEA89B1AD0251F00BD887C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9456AEB91B10674B0093BD3D /* Localizable.strings */,
+				9456AEAF1B105D0D0093BD3D /* InfoPlist.strings */,
 				94CEA8A61AD0251F00BD887C /* LaunchScreen.xib */,
 				94CEA89D1AD0251F00BD887C /* AppDelegate.swift */,
 				94CEA89C1AD0251F00BD887C /* Info.plist */,
@@ -110,6 +124,7 @@
 		94CEA8B11AD0251F00BD887C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9456AEB41B105D0D0093BD3D /* InfoPlist.strings */,
 				94CEA8B21AD0251F00BD887C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,7 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9456AEB71B10674B0093BD3D /* Localizable.strings in Resources */,
 				94CEA8A31AD0251F00BD887C /* Main.storyboard in Resources */,
+				9456AEAD1B105D0D0093BD3D /* InfoPlist.strings in Resources */,
 				94CEA8A81AD0251F00BD887C /* LaunchScreen.xib in Resources */,
 				94CEA8A51AD0251F00BD887C /* Images.xcassets in Resources */,
 			);
@@ -205,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9456AEB21B105D0D0093BD3D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +258,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9456AEAF1B105D0D0093BD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9456AEAE1B105D0D0093BD3D /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9456AEB41B105D0D0093BD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9456AEB31B105D0D0093BD3D /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9456AEB91B10674B0093BD3D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9456AEB81B10674B0093BD3D /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		94CEA8A11AD0251F00BD887C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				94CEA8A21AD0251F00BD887C /* Base */,
+				9456AEA51B105C000093BD3D /* fr */,
+				9456AEA71B105C040093BD3D /* ja */,
+				9456AEA91B105C090093BD3D /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +297,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				94CEA8A71AD0251F00BD887C /* Base */,
+				9456AEA61B105C000093BD3D /* fr */,
+				9456AEA81B105C040093BD3D /* ja */,
+				9456AEAA1B105C090093BD3D /* zh-Hant */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -411,6 +459,7 @@
 				94CEA8B91AD0251F00BD887C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94CEA8BA1AD0251F00BD887C /* Build configuration list for PBXNativeTarget "AutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +468,7 @@
 				94CEA8BC1AD0251F00BD887C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
